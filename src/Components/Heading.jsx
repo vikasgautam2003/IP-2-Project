@@ -1,12 +1,18 @@
 import React from 'react';
 import './Heading.css';
-import demonvideo from './demonslayer.mp4';
+// import transition from "./Transition.jsx";
+import Video from './Video.jsx';
 
 function Heading() {
   return (
     <div>
     <div className="div-heading">
       <div className="nav">
+        <ul className='nav-links'>
+          <li>Start</li>
+          <li>Contact</li>
+          <li>Github</li>
+        </ul>
         <button className='login'>Login</button>
         <button className='register'>Register</button>
       </div>
@@ -39,8 +45,9 @@ function Heading() {
       </a>
     </div>
     </div>
+    <Video />
     </div>
+    
   );
 }
 export default Heading;
-
