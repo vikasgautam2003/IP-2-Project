@@ -86,7 +86,7 @@ body{
     text-decoration: none;
     vertical-align: middle;
     text-align: center;
-    line-height: 2;
+    line-height: 0;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -111,11 +111,23 @@ body{
 
 
 .single-box{
+    /* margin-left: -200px;
+    width: 230px;
+    text-align: center;
+    padding: 10;
+    display: inline-table;
+    height: 40px;
+    transition: margin-left 0.5s;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0; */
+
     margin-left: -200px;
     width: 230px;
-    padding: 0;
-    display: inline-table;
-    height: 0;
+    height: 60px;
+    display: flex; /* Use flexbox to align the content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 10px;
     transition: margin-left 0.5s;
     cursor: pointer;
     border-radius: 0 50px 50px 0;
@@ -164,6 +176,7 @@ body{
     top: 0;
     height: 150px;
     display: inline-block;
+    text-align: center;
 }
 
 .login{
@@ -214,7 +227,7 @@ body{
 
 .nav-links{
     
-    margin-left: 250px;
+    margin-left: 450px;
     align-items: center;
     height: 100px;
     margin-top: 0px;

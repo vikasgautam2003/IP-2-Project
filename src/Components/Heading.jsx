@@ -2,6 +2,8 @@ import React from 'react';
 import './Heading.css';
 // import transition from "./Transition.jsx";
 import Video from './Video.jsx';
+import Feature from './Features.jsx';
+import Proceed from './Procedure.jsx';
 
 function Heading() {
   return (
@@ -46,6 +48,8 @@ function Heading() {
     </div>
     </div>
     <Video />
+    <Feature />
+    <Proceed />
     </div>
     
   );

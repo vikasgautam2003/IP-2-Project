@@ -1,39 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-
-// //Components
-// import Heading from './Components/Heading.jsx'
-// import BackgroundVideo from './Components/BackgroundVideo.jsx'
-// // import Loader from './Components/Loader.jsx'
-// // import Video from './Components/Video.jsx'
-// // import { Routes, Route, useLocation } from 'react-router-dom';
-// // import { AnimatePresence } from "framer-motion";
-// // import Features from './Components/Features.jsx'
-
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
- 
-//   return (
-//     <>
-//       {/* <Loader /> */}
-//       <BackgroundVideo />
-//       <Heading />
-//       {/* <Heading />
-//       <Video /> */}
-//       {/* <Features /> */}
-
-//     </>
-//   )
-// }
-
-// export default App
-
-
 import { useState, useEffect } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
@@ -44,6 +8,7 @@ import Heading from './Components/Heading.jsx';
 import BackgroundVideo from './Components/BackgroundVideo.jsx';
 import Loader from './Components/Loader.jsx'; 
 import { AnimatePresence, motion } from 'framer-motion';
+import Feature from './Components/Features.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -70,6 +35,7 @@ function App() {
             >
               <BackgroundVideo />
               <Heading />
+              
             </motion.div>
           </AnimatePresence>
         </>

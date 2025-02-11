@@ -11,19 +11,18 @@
 	font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
 }
 
-.hourglass-container {
+.loader-container {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds dark overlay */
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.8); /* Optional dark overlay */
-    z-index: 9999;
+    align-items: center;
+    z-index: 999999; /* Ensure loader is on top */
 }
-
 
 
 body {
