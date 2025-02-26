@@ -1,0 +1,117 @@
+footer .container{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.footer-col ul
+{
+    list-style: none;
+}
+
+.footer-col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu';
+}
+
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #e91e64;
+    bottom: -10px;
+}
+
+
+
+.footer-col ul li {
+  padding: 10px 0;
+  
+}
+
+.footer-col ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'poppins';
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col ul a:hover{
+    opacity: 1;
+   
+}
+
+.footer-col input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+
+
+
+.footer-col .inputSubmit{
+    padding: 0px 20px;
+    background-color: #e91e64;
+    border: none;
+    color: white;
+}
+
+.col p {
+    color: white;
+    font-size: 18px;
+
+    
+}
+
+
+.row .socialIcons i{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.row .socialIcons i:hover{
+    color: #e91e64;
+}
+
+
+.footer-line {
+    border: none; /* Remove default border */
+    height: 2px; /* Set height */
+    background-color: white; /* Make it visible on a dark background */
+    
+    opacity: 1; /* Ensure full visibility */
+}
+
+
+@media screen and (max-width: 768px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    footer .footer-col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-col input{
+        width: 100%;
+    }
+}
+

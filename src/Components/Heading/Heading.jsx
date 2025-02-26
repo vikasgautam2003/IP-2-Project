@@ -7,6 +7,7 @@ import Feature from '../Features/Features.jsx';
 import Objectives from '../Objectives/Objectives.jsx';
 import Expo from '../Expo/Expo.jsx';
 import FAQs from '../FAQs/FAQs.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 
 function Heading() {
@@ -58,6 +59,7 @@ function Heading() {
     <Objectives />
     <Expo />
     <FAQs />
+    <Footer />
     </div>
     
   );
