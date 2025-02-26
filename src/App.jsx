@@ -4,11 +4,11 @@ import viteLogo from '/vite.svg';
 import './App.css';
 
 // Components
-import Heading from './Components/Heading.jsx';
+import Heading from './Components/Heading/Heading.jsx';
 import BackgroundVideo from './Components/BackgroundVideo.jsx';
-import Loader from './Components/Loader.jsx'; 
+import Loader from './Components/Loader/Loader.jsx'; 
 import { AnimatePresence, motion } from 'framer-motion';
-import Feature from './Components/Features.jsx';
+
 
 function App() {
   const [count, setCount] = useState(0);
